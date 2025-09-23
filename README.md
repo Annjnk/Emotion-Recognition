@@ -14,3 +14,7 @@ Can analyses the images and looks for patterns in facial features like eyes, mou
 
 OUTPUT: Each emotions probability is shown as a coloured bar with text above the face, probabilities update live, every frame (30fps)
 Press q to exit
+
+The new env: python3 -m venv emotion-env
+source emotion-env/bin/activate
+python real_time_video_barchart.py
